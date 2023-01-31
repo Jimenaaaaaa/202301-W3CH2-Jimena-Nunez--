@@ -1,5 +1,5 @@
-import {Character} from '../constructor/Character';
-import {type Fighter} from '../fighter-class/Fighter-class';
+import { Character } from '../constructor/Character';
+import { type Fighter } from '../fighter-class/Fighter';
 
 export class Squire extends Character {
 	constructor(
@@ -7,7 +7,7 @@ export class Squire extends Character {
 		family: string,
 		age: number,
 		public grade: number,
-		public boss: Fighter,
+		public boss: Fighter
 	) {
 		super(name, family, age);
 	}

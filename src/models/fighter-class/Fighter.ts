@@ -1,4 +1,4 @@
-import {Character} from '../constructor/Character';
+import { Character } from '../constructor/Character';
 
 export class Fighter extends Character {
 	constructor(
@@ -6,7 +6,7 @@ export class Fighter extends Character {
 		family: string,
 		age: number,
 		public weapon: string,
-		public skill: number,
+		public skill: number
 	) {
 		super(name, family, age);
 	}
