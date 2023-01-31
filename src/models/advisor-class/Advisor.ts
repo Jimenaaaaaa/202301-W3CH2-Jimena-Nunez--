@@ -1,12 +1,12 @@
 import { Character } from '../constructor/Character';
-import { type King } from '../king-class/King';
+import { type Fighter } from '../fighter-class/Fighter';
 
 export class Advisor extends Character {
 	constructor(
 		name: string,
 		family: string,
 		age: number,
-		public advising: King
+		public advising: Fighter
 	) {
 		super(name, family, age);
 	}
