@@ -1,14 +1,14 @@
 import { Character } from '../constructor/Character';
+import { type King } from '../king-class/King';
 
 export class Advisor extends Character {
 	constructor(
 		name: string,
 		family: string,
 		age: number,
-		public advising: string
+		public advising: King
 	) {
 		super(name, family, age);
-		this.advising = advising;
 	}
 
 	greetings(): string {
