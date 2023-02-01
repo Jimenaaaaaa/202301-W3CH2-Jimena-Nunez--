@@ -9,5 +9,4 @@ const daenerys = new Fighter('Daenerys', 'Targaryen', 18, 'dragon', 6);
 const tyrion = new Advisor('Tyrion', 'Lannister', 40, daenerys);
 const bronn = new Squire('Bronn', 'Darkwaters', 32, 1, jamie);
 
-
 const characters = [joffrey, jamie, daenerys, tyrion, bronn];
